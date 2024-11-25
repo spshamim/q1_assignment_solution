@@ -47,7 +47,7 @@ def process_keywords(sheet, driver):
 
         # Keywords start from 3rd row to max row count
         # Column 2nd for keywords, Column 3rd for the values
-        # Column 3rd for longest option, Column 4th for shortest option to write
+        # Column 4th for longest option, Column 5th for shortest option to write
 
         keyword = row[1].value  # 3rd Column (Storing Keyword values to the keyword variable)
         if not keyword: # if keyword value is empty or None then skip that row
